@@ -135,7 +135,7 @@ li::marker {
   padding-bottom: 0.5rem;
 }
 
-@media all and (max-width: 376px) {
+@media all and (max-width: 465px) {
   html {
     font-size: 1rem;
   }
