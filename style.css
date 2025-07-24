@@ -1,0 +1,150 @@
+.attribution {
+  font-size: 1rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 0.52rem;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: 'Young Serif';
+  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f3e6d8;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  background-color: white;
+  width: min(100%, 50rem);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.container--padding {
+  padding: 2.5rem;
+}
+
+.container__img-omelette {
+  height: 100%;
+  width: 100%;
+}
+
+.container__preparation {
+  background-color: #fff5fa;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  line-height: 2rem;
+}
+
+.container__preparation h2 {
+  margin: 0;
+}
+
+.container__preparation ul {
+  padding-left: 1.5rem;
+}
+
+.container__preparation-title {
+  color: #7b284f;
+}
+
+.container__preparation li::marker {
+  color: #7b284f;
+}
+
+.container__preparation-list {
+  color: #5f574e;
+}
+
+.container__recipe-title {
+  font-family: 'Young Serif';
+  font-size: 2rem;
+  margin: 0;
+}
+
+.container__recipe-description, .container__ingredients-list, .container__instructions-list, .container__nutrition-description, .container__nutrition-table {
+  font-family: 'Outfit';
+  color: #5f574e;
+}
+
+.container__ingredients-title {
+  color: #854632;
+  font-family: 'Young Serif';
+}
+
+.container__ingredients-list, .container__instructions-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.container__instructions-title, .container__nutrition-title {
+  color: #854632;
+  font-family: 'Young Serif';
+}
+
+.container__nutrition-cell--brown {
+  color: #854632;
+  font-weight: 600;
+}
+
+.container__nutrition-cell--padding {
+  padding-left: 2rem;
+}
+
+li {
+  padding-left: 1.5rem;
+}
+
+li::marker {
+  color: #854632;
+}
+
+.container__nutrition-table {
+  border-collapse: seperate;
+  border-spacing: 0 .5rem;
+  width: 100%;
+}
+
+.container__nutrition-table td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 0.5rem;
+}
+
+.container__ingredients ul, .container__instructions ol {
+  padding: 1.2rem;
+}
+
+@media all and (max-width: 465px) {
+  html {
+    font-size: 1rem;
+  }
+  .container {
+    width: min(100%, 30rem);
+  }
+}
