@@ -20,7 +20,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://jldevx.github.io/Recipe-Page/](https://jldevx.github.io/Recipe-Page/)
 
 ## My process
 
